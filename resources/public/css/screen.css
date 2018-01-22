@@ -59,7 +59,14 @@ li time {
   padding-bottom: 20px;
 }
 
-form, .error {
+.content {
+  background: white;
+  width: 520px;
+  padding: 30px;
+}
+
+.error {
+  width: 520px;
   padding: 30px;
   margin-bottom: 50px;
   position: relative;
