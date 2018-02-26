@@ -29,6 +29,7 @@
                  [ring/ring-defaults "0.3.1"]
                  [selmer "1.11.3"]
                  [reagent "0.7.0"]
+                 [com.taoensso/sente "1.12.0"]
                  [cljs-ajax "0.5.2"]
                  [org.clojure/clojurescript "1.9.946" :scope "provided"]]
 
