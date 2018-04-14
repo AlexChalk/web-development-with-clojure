@@ -1,21 +1,26 @@
-# guestbook
+# Guestbook
 
-generated using Luminus version "2.9.12.06"
+A simple guestbook application. Updates are made over a websocket collection, so users will see new posts appear in real-time.
 
-FIXME
+### Setup
 
-## Prerequisites
+```
+lein run migrate
+lein cljsbuild once
+```
 
-You will need [Leiningen][1] 2.0 or above installed.
+### Running
+```
+lein run
+```
+Port defaults to http://localhost:3000
 
-[1]: https://github.com/technomancy/leiningen
+### Tests
 
-## Running
+```
+lein test
+```
 
-To start a web server for the application, run:
+### Other Notes
 
-    lein run 
-
-## License
-
-Copyright © 2017 FIXME
+Built from a tutorial in  Dmitri Sotnikov's book [Web Development with Clojure](https://pragprog.com/book/dswdcloj/web-development-with-clojure).
